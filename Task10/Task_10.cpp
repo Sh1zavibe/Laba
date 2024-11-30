@@ -6,7 +6,7 @@ long double mysqrt(long double x)
     for (int i = 0; i <= 20; i++)
     { 
         long double middle = (left + right) / 2;                       
-        if (middle * middle < x) 
+        if (middle * middle < x) //Kto naydet poshalku tot molodec
             left = middle; 
         else 
             right = middle;
