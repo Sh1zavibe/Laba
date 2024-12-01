@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/LR6.dir/main.cpp.o CMakeFiles/LR6.dir/library.cpp.o -o LR6
