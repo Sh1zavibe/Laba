@@ -2,7 +2,7 @@
 #include <iostream> 
 #include <limits>
 #include "library.h"
- 
+#include<gtest/gtest.h>
 const int maxl = 80; 
  
 int main() { 
@@ -40,8 +40,7 @@ int main() {
         } 
       } else { 
         std::cout << "Превышен лимит символов, введите строку ещё раз : "; 
-        i = 1; 
-        correct_input = 0; 
+        i = 1;
         while (getchar() != '\n') 
           ; 
       } 
